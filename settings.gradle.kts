@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "EdgeDetectionViewer"
 include(":app")
- 
+include(":opencv")  
