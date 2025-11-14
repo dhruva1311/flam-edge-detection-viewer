@@ -40,6 +40,11 @@ Download edge-detected image
 Download side-by-side comparison
 PNG format with labels
 
+## Screenshots 
+![alt text](image.png)
+![alt text](image-1.png)
+
+
 ## 🏗️ Project Structure
 ```
 flam-edge-detection/
@@ -175,17 +180,6 @@ Camera → Java/Kotlin → JNI → C++ OpenCV → JNI → OpenGL → Display
 - ✅ TypeScript web viewer skeleton
 - ✅ Project structure organization
 
-### In Progress
-- 🔄 Camera integration
-- 🔄 JNI bridge implementation
-
-### Upcoming
-- ⏳ Edge detection algorithm
-- ⏳ OpenGL rendering
-- ⏳ Performance optimization
-- ⏳ Web viewer data integration
-
----
 
 ## 📊 Performance Targets
 
@@ -197,7 +191,7 @@ Camera → Java/Kotlin → JNI → C++ OpenCV → JNI → OpenGL → Display
 
 ## 🐛 Known Issues
 
-_None yet - project just initialized_
+_None yet 
 
 ---
 
