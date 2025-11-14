@@ -2,9 +2,6 @@
 
 An Android application that performs real-time edge detection using OpenCV and renders results with OpenGL ES, with a TypeScript-based web viewer for frame analysis.
 
-**Assignment for:** Flam RnD Internship - Software Engineer Position  
-**Batch:** 2026  
-**Deadline:** November 14, 2025, 4:00 PM
 
 ---
 
@@ -18,36 +15,30 @@ This project demonstrates integration of:
 
 ---
 
-## ✅ Features Implemented
+## Features Implemented
 
-### Phase 1: Initial Setup ✓
-- [x] Android project with NDK support
-- [x] OpenCV integration
-- [x] CMake build configuration
-- [x] TypeScript web viewer foundation
-- [x] Project structure setup
+Edge Detection Methods
 
-### Phase 2: Camera Integration (In Progress)
-- [ ] Camera permission handling
-- [ ] TextureView implementation
-- [ ] Frame capture pipeline
+Select from 4 different algorithms
+Canny: Adjustable thresholds with sliders
+Sobel, Laplacian, Adaptive: One-click processing
 
-### Phase 3: Native Processing (Planned)
-- [ ] JNI bridge implementation
-- [ ] Canny edge detection in C++
-- [ ] Frame format conversion
 
-### Phase 4: OpenGL Rendering (Planned)
-- [ ] OpenGL ES setup
-- [ ] Texture rendering
-- [ ] FPS optimization
+Real-time Statistics
 
-### Phase 5: Web Viewer Enhancement (Planned)
-- [ ] Frame data loading
-- [ ] Statistics display
-- [ ] Export functionality
+Edge pixels count
+Total pixels
+Edge coverage percentage
+Mean intensity value
+Processing time
 
----
+
+Export Options
+
+Download original image
+Download edge-detected image
+Download side-by-side comparison
+PNG format with labels
 
 ## 🏗️ Project Structure
 ```
@@ -227,20 +218,5 @@ Email: dhruvarprasad@gmail.com
 GitHub: [@dhruva1311](https://github.com/dhruva1311)
 
 ---
-
-## 📄 License
-
-This project is created as part of the Flam RnD Internship assignment.
-
----
-
-## 🙏 Acknowledgments
-
-- Flam Team for the opportunity
-- OpenCV community for excellent documentation
-- Android developer community
-
----
-
-**Last Updated:** November 13, 2025  
-**Status:** Initial Setup Complete ✓
+Last Updated: November 13, 2025  
+Status: Initial Setup Complete ✓
