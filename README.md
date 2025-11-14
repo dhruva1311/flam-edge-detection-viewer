@@ -134,7 +134,7 @@ flam-edge-detection/
 ```
 
 5. **Open in browser**
-   - Navigate to `http://localhost:8000/src/`
+   - Navigate to `http://localhost:8000/`
 
 ---
 
